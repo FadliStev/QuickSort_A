@@ -121,6 +121,11 @@ namespace QuickSort_A
             Console.WriteLine("\nNumber of Comparisons : "+ cmp_count);
             Console.WriteLine("\nNumber of Data Movements : "+ mov_count);
         }
+
+        int getSize()
+        {
+            return (n);
+        }
     }
 
     internal class Program
