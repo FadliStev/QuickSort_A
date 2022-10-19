@@ -126,12 +126,13 @@ namespace QuickSort_A
         {
             return (n);
         }
-    }
 
-    internal class Program
-    {
         static void Main(string[] args)
         {
+            //Declaring the object of the class
+            Program mylist = new Program(); 
         }
     }
+
+   
 }
