@@ -138,6 +138,9 @@ namespace QuickSort_A
             mylist.q_sort(0, mylist.getSize() - 1);
             //Display sorted array
             mylist.display();
+            //to exit from the console
+            Console.WriteLine("\n\n Press Enter To Exit");
+            Console.Read();
         }
     }
 
