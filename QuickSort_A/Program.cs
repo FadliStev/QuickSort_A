@@ -136,6 +136,8 @@ namespace QuickSort_A
             //calling the sorting function
             //frist call to quick sort algorithm
             mylist.q_sort(0, mylist.getSize() - 1);
+            //Display sorted array
+            mylist.display();
         }
     }
 
