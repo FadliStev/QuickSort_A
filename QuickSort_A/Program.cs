@@ -133,7 +133,9 @@ namespace QuickSort_A
             Program mylist = new Program();
             //Accept array elements
             mylist.input();
-
+            //calling the sorting function
+            //frist call to quick sort algorithm
+            mylist.q_sort(0, mylist.getSize() - 1);
         }
     }
 
