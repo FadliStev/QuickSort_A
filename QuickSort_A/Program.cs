@@ -107,6 +107,15 @@ namespace QuickSort_A
             //sort the list on the right of pivot using quick sort
             q_sort(j+1,high);
         }
+
+        void display()
+        {
+            Console.WriteLine("\n-----------------------");
+            Console.WriteLine(" Sorted array elements ");
+            Console.WriteLine("------------------------");
+
+            
+        }
     }
 
     internal class Program
