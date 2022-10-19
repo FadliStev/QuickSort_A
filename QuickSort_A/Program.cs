@@ -130,7 +130,10 @@ namespace QuickSort_A
         static void Main(string[] args)
         {
             //Declaring the object of the class
-            Program mylist = new Program(); 
+            Program mylist = new Program();
+            //Accept array elements
+            mylist.input();
+
         }
     }
 
